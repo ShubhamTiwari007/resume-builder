@@ -1,0 +1,26 @@
+/* App.module.css */
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.layout {
+  display: flex;
+  gap: 20px;
+}
+
+.preview {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background: white;
+  max-width: 800px;
+  overflow: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
